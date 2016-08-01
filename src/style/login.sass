@@ -1,0 +1,94 @@
+@import 'base.sass';
+body
+{
+	background-color:$bodycol;
+	position:relative;
+}
+.main-box
+{
+	width:400px;
+	height:auto;
+	overflow:hidden;
+	position:absolute;
+	top:50px;
+	left:50%;
+	margin-left:-200px;
+	background-color:$sectioncol;
+	box-shadow:1px 1px 1px 1px #ccc;
+	border-radius:5px;
+	padding-bottom:10px;
+}
+.sec-box
+{
+	height:auto;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.sec-box h2
+{
+	color:$topcol;
+	font-size:24px;
+	text-align:center;
+	line-height:80px;
+}
+.sec-box label
+{
+	width:340px;
+	margin:10px auto;
+	display:block;
+}
+.sec-box label span
+{
+	display:inline-block;
+	*display:inline;
+	width:64px;
+	text-align:right;
+	margin-right:10px;
+	color:$font444;
+}
+.sec-box label input
+{
+	width:240px;
+	border:1px solid $fontccc;
+	background:none;
+	font-size:14px;
+	padding-left:5px;
+	line-height:30px;
+}
+.operation-btn
+{
+	line-height:60px;
+	width:100%;
+	text-align:center;
+}
+.operation-btn a 
+{
+	padding:10px 120px;
+	background-color:$topcol;
+	font-size:16px;
+	margin:0px 10px;
+	color:$sectioncol;
+}
+.sign-now
+{
+	text-align:center;
+	font-size:14px;
+	width:100%;
+}
+
+.sign-now a 
+{
+	color:$font444;
+	text-decoration:underline;
+}
+.sign-now a:hover 
+{
+	color:$topcol;
+}
+.errmsg
+{
+	line-height:30px;
+	font-size:14px;
+	color:#f00;
+	text-align:center;
+}

@@ -1,0 +1,199 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5 tahoma, arial "微软雅黑", \5b8b\4f53;
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: 12px/1.5 "微软雅黑"; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+legend {
+  color: #000; }
+
+fieldset, img, button {
+  border: 0; }
+
+button, input, select, textarea {
+  font-size: 100%; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  /* IE9*/
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */ }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.hide {
+  display: none !important; }
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑"; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5 tahoma, arial "微软雅黑", \5b8b\4f53;
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font: 12px/1.5 "微软雅黑"; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+legend {
+  color: #000; }
+
+fieldset, img, button {
+  border: 0; }
+
+button, input, select, textarea {
+  font-size: 100%; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  /* IE9*/
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+  /* iOS 4.1- */ }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.hide {
+  display: none !important; }
+
+.com-bar {
+  line-height: 60px;
+  width: 924px;
+  margin: 20px auto 0px; }
+
+.com-btn {
+  padding: 5px 20px;
+  border: 1px solid #1fda9a;
+  text-align: center;
+  font-size: 16px;
+  color: #1fda9a; }
+
+.com-btn:hover {
+  background-color: #1fda9a;
+  color: #f2f2f3; }
+
+.category-box {
+  width: 924px;
+  margin: 0px auto 20px;
+  height: auto;
+  overflow: hidden; }
+
+.category-box li {
+  line-height: 150px;
+  border: 1px dashed #e9bc1b;
+  padding: 0px 10px;
+  margin: 10px 0px;
+  position: relative; }
+
+.cate-pic {
+  vertical-align: middle; }
+
+.category {
+  display: inline-block;
+  padding-left: 20px;
+  vertical-align: middle; }
+
+.category h4 {
+  color: #ee4a3e;
+  font-size: 20px;
+  line-height: 40px; }
+
+.category p {
+  font-size: 14px;
+  color: #444;
+  line-height: 24px; }
+
+.operation {
+  margin-top: 10px; }
+
+.operation a {
+  color: #e9bc1b;
+  padding: 0px 5px;
+  font-size: 24px; }
+
+.test {
+  width: 100px;
+  line-height: 40px;
+  padding: 0px;
+  position: absolute;
+  top: 55px;
+  right: 30px; }
+
+.test:hover {
+  background-color: #1fda9a;
+  color: #f2f2f3; }

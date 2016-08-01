@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<link rel="stylesheet" href="style/login.css">
+</head>
+<body>
+	<div class="main-box">
+		<div class="sec-box login-box">
+			<h2>用户登录</h2>
+			<label>
+				<span>用户名</span>
+				<input id="login_username" type="text" placeholder="用户名(邮箱或手机号)">
+			</label>
+			<label>
+				<span>密码</span>
+				<input id="login_pwd" type="password" placeholder="密码(数字和字符组成)">
+			</label>
+		</div>
+
+		<div class="sec-box reg-box hide">
+			<h2>用户注册</h2>
+			<label>
+				<span>用户名</span>
+				<input id="sign_username" type="text" placeholder="用户名(邮箱或手机号)">
+			</label>
+			<label>
+				<span>密码</span>
+				<input id="sign_pwd" type="password" placeholder="密码(数字和字符组成)">
+			</label>
+			<label>
+				<span>确认密码</span>
+				<input id="sign_enter_pwd" type="password" placeholder="密码(数字和字符组成)">
+			</label>
+		</div>
+ 
+		<p class="errmsg" id="errmsg"></p>
+
+		<div class="operation-btn">
+			<a href="javascript:;" id="login">登陆</a>
+			<a href="javascript:;" id="sign" class="hide">注册</a>
+		</div>
+
+		<div class="sign-now"><a href="javascript:;">立即注册</a><a class="hide" href="javascript:;">立即登陆</a></div>
+	</div>
+</body>
+<script src="js/login.js"></script>
+</html>
