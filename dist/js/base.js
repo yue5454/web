@@ -44068,21 +44068,39 @@ newEnglish.config(["$locationProvider","$stateProvider", '$urlRouterProvider', '
 			}
 		}
 	})
-	.state("word",{
-		url:'/word',
+	.state("category",{
+		url:'/category/:type',
 		views:{
 			'':{
 				templateUrl:'view/category.html',
-				controller:word
+				controller:category
 			}
 		}
 	})
-	.state("word_detail",{
-		url:'/word_detail',
+	.state("category_detail",{
+		url:'/category_detail/:type',
 		views:{
 			'':{
 				templateUrl:'view/category_detail.html',
-				controller:wordDetail
+				controller:categoryDetail
+			}
+		}
+	})
+	.state("category_test",{
+		url:'/category_test/:type',
+		views:{
+			'':{
+				templateUrl:'view/test.html',
+				controller:categoryTest
+			}
+		}
+	})
+	.state("add_category",{
+		url:'/add_category/:type',
+		views:{
+			'':{
+				templateUrl:'view/add_category.html',
+				controller:addcategory
 			}
 		}
 	});
@@ -44105,4 +44123,16 @@ newEnglish.config(["$locationProvider","$stateProvider", '$urlRouterProvider', '
 	$httpProvider.defaults.headers.post = {
 		"Content_Type":"application/x-www-form-urlencoded;charset=utf-8"
 	}
+}])
+.run(['$rootScope', '$cookies', '$state', '$location', function ($rootScope, $cookies, $state, $location) {
+
+	$rootScope.$on("$locationChangeStart", function (evt,cur,next) 
+	{
+		var name = $cookies.get("uName");
+		if(!name)
+		{
+			$location.path("/index");
+		}
+	})
+	
 }]);

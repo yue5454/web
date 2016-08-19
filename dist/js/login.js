@@ -9790,7 +9790,17 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 	// 顶部导航
 	$(document).on("click", ".top-box ul li", function () {
 		$(this).addClass("active").siblings().removeClass("active");
-	});
+	})
+	.on("click", '.info-ele', function () {
+		if($(".log-opt").hasClass("hide"))
+		{
+			$(".log-opt").removeClass("hide");
+		}
+		else
+		{
+			$(".log-opt").addClass("hide");
+		}
+	})
 });
 
 var Server = 

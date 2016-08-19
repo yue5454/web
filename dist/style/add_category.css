@@ -217,53 +217,37 @@ table {
   color: #f00;
   text-align: center; }
 
-.category-box {
+.add-cate-box {
   width: 924px;
-  margin: 0px auto 20px;
+  margin: 20px auto; }
+
+.add-word-box {
   height: auto;
   overflow: hidden; }
 
-.category-box li {
-  line-height: 150px;
-  border: 1px dashed #e9bc1b;
-  padding: 0px 10px;
-  margin: 10px 0px;
-  position: relative; }
-
-.cate-pic {
-  vertical-align: middle; }
-
-.category {
-  display: inline-block;
-  padding-left: 20px;
-  vertical-align: middle; }
-
-.category h4 {
-  color: #ee4a3e;
-  font-size: 20px;
-  line-height: 40px; }
-
-.category p {
+.add-word-box ul {
+  border: 1px solid #ccc;
+  height: auto;
+  overflow: hidden;
   font-size: 14px;
   color: #444;
-  line-height: 24px; }
+  margin: 10px 0px;
+  padding: 0px 10px;
+  background-color: #fff; }
 
-.operation {
-  margin-top: 10px; }
+.add-word-box ul li {
+  margin: 10px 0px; }
 
-.operation a {
-  color: #e9bc1b;
-  padding: 0px 5px;
-  font-size: 24px; }
+.add-word-box ul li span {
+  display: inline-block;
+  width: 60px;
+  text-align: center; }
 
-.test {
-  width: 100px;
-  line-height: 40px;
-  padding: 0px;
-  position: absolute;
-  top: 55px;
-  right: 30px; }
+.add-word-input {
+  border: 1px solid #ccc;
+  line-height: 30px;
+  padding-left: 5px;
+  width: 400px; }
 
-.test:hover {
-  background-color: #1fda9a;
-  color: #f2f2f3; }
+.add-btn {
+  margin: 20px 0px; }
